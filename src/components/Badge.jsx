@@ -9,14 +9,14 @@ class Badge extends Component{
         <React.Fragment>
             <div className="Badge m-5">
                 <div className="Badge__header">
-                    <img src={HeaderBackground} alt="header_background"/>
+                    <img src={this.props.header_picture} alt="header_background"/>
                 </div>
                 <div className="container mt-5 mb-1 Badge__userInfo">
                     <div className="Badge__userImage">
                         <img src={this.props.picture} alt="Profile_picture" />
                     </div>
-                    <h4 className="text-center"> Juan Velazques <i>24</i></h4>
-                    <p className="text-center">Texas city</p>
+                    <h4 className="text-center">{this.props.name}<i>{this.props.name}</i></h4>
+                    <p className="text-center">{this.props.city}</p>
                 </div>
                 <div className="Badge__info container pt-3">
                     <div className="row">
