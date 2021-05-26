@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter, Route, Switch } from "react-router-dom"
 import Badge from './components/Badge.jsx';
 import Layout from "./pages/layout/Layout";
 import Main from "./pages/main/Main"; 
@@ -6,11 +7,15 @@ import NewBadge from "./pages/NewBadge/NewBadge"
 
 function App() {
   return (
-    <React.Fragment>
+    <BrowserRouter>
       <Layout>
-        <NewBadge></NewBadge>
-        </Layout>
-    </React.Fragment>
+        <Switch>
+          <Route exact path="/" component={Main}></Route>
+          <Route exact path="/badges" component={Badge}></Route>
+          <Route exact path="/new" component={NewBadge}></Route>
+        </Switch>
+      </Layout>
+    </BrowserRouter>
   );
 }
 
