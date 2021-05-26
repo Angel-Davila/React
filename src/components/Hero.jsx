@@ -1,18 +1,17 @@
 import React from "react"
 import "./Style/Hero.css"
 
-const Hero = props =>{
+const Hero = (props) =>{
     return (
         <React.Fragment>
-            <div className="Hero">
-                <div className="Hero_color" style={{height: props.h}}></div>
-                <div className="Hero_img" style={{height: props.h}}>
-                    <img src="{HeroImage}" alt="" />
-                </div>
+        <div className="Hero">
+            <div className="Hero__color" style={{height: props.h}}></div>
+            <div className="Hero__img" style={{height: props.h}}>
+                <img src={props.picture} alt=""/>
             </div>
-
-        </React.Fragment>
+        </div>
+    </React.Fragment>
     )
 }
 
-export default Hero
+export default Hero;
