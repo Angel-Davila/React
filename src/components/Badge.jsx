@@ -13,24 +13,25 @@ class Badge extends Component{
                 </div>
                 <div className="container mt-5 mb-1 Badge__userInfo">
                     <div className="Badge__userImage">
-                        <img src={this.props.picture} alt="Profile_picture" />
+                        <img src={this.props.profile_picture} alt="Profile_picture" />
                     </div>
-                    <h4 className="text-center">{this.props.name}<i>{this.props.name}</i></h4>
+                    <h4 className="text-center">{this.props.name}<i></i>
+                    </h4>
                     <p className="text-center">{this.props.city}</p>
                 </div>
                 <div className="Badge__info container pt-3">
                     <div className="row">
                         <div className="col">
-                            <h4 className="text-center fw bold">{this.props.followers}</h4>
-                            <p className="text-center">Followers</p>
+                            <h4 className="text-center fw bold">{this.props.age}</h4>
+                            <p className="text-center">Age</p>
                         </div>
                         <div className="col">
-                            <h4 className="text-center fw bold">{this.props.likes}</h4>
-                            <p className="text-center">Likes</p>
+                            <h4 className="text-center fw bold">{this.props.bets}</h4>
+                            <p className="text-center">Bets</p>
                         </div>
                         <div className="col">
-                            <h4 className="text-center fw bold">{this.props.post}</h4>
-                            <p className="text-center">Pictures</p>
+                            <h4 className="text-center fw bold">{this.props.state}</h4>
+                            <p className="text-center">Years active</p>
                         </div>
                     </div>
                 </div>
