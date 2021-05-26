@@ -3,7 +3,7 @@
     align-content: center;
     height: 60px;
     width: 100%;
-    border-bottom: 1px solid green;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
 
 .Header img{

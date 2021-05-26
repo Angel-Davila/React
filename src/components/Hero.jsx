@@ -1,5 +1,4 @@
 import React from "react"
-import HeroImage from "../images/Hero_img.jpg"
 import "./Style/Hero.css"
 
 const Hero = props =>{

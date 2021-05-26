@@ -34,7 +34,7 @@ class NewBadge extends React.Component{
                             city = {this.state.form.city || "Madrid"}
                             bets = {this.state.bets || "2,000"}
                             state = {this.state.state || "12"}
-                        > </Badge>
+                        ></Badge>
                     </div>     
                     <div className="col">
                         

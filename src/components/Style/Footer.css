@@ -5,8 +5,8 @@
     text-align: center;
     align-items: center;
     justify-content: center;
-    color: honeydew;
-    background-color: teal;
+    color: rgb(255, 255, 255);
+    background-color: rgb(110, 58, 58);
 
     position: absolute;
     bottom: 0;
