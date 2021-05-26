@@ -6,7 +6,7 @@ class Header extends React.Component{
         return(
             <React.Fragment>
                 <div className="Header">
-                    <img src="https://proyecta.utch.edu.mx/public/images/utch-b.png" alt="Logo" />
+                    <img src="https://image.flaticon.com/icons/png/512/2316/2316749.png" alt="Logo" />
                 </div>
             </React.Fragment>
         );
