@@ -2,10 +2,8 @@ import React from "react";
 import Hero from "../../components/Hero";
 import Badge from "../../components/Badge";
 import BadgeForm from "../../components/BadgeForm";
+import api from "../../lib/api";
 import "./NewBadge.css";
-
-
-
 
 
 class NewBadge extends React.Component{
