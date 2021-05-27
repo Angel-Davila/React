@@ -1,11 +1,11 @@
-import './Style/Notfound.css';
+import './Style/NotFound.css';
 import React from "react"
 
 class Error extends React.Component{
     render(){
         return(
             <React.Fragment>
-                <img src="https://freefrontend.com/assets/img/html-css-404-page-templates/404.mp4"></img>
+                <img src="https://colorlib.com/wp/wp-content/uploads/sites/2/404-error-template-3.png.webp" class="img_404"></img>
             </React.Fragment>
         );
     }
